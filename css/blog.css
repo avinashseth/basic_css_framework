@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: droidSans;
+}
+@font-face{
+    font-family: droidSans;
+    src: url(../fonts/DroidSans.ttf);
+}
+.header{
+    background: #0083d7;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+.header .brand{
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    width: auto;
+    color: white;
+}
+/* to move brand to right */
+.header .brand.brand-right{
+    text-align: right;
+    margin-right: 15px;
+}
+.header .menu{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 40px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
